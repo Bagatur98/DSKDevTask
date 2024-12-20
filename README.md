@@ -5,6 +5,7 @@
                                                      CreditAmount REAL NOT NULL,
                                                      CreditDate TEXT NOT NULL,
                                                      Status INTEGER NOT NULL
+                                                     
 като Id е ключа на таблицата, 
      CreditAmount е REAL, което съответсва на double в C#, 
      а Status е INTEGER, който съответства на enum CreditStatus, в който има 3 стойности: Created = 0,
@@ -15,4 +16,5 @@
                                                       CreditId INTEGER,
                                                       Amount REAL NOT NULL,
                                                       FOREIGN KEY(CreditId) References Credits(Id) ON DELETE Cascade,
+
 както и колона CreditId, която е foreign key към таблица Credits. Връзката Credits -> Invoices e one-to-many

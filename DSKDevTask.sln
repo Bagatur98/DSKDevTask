@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSKDevTask", "DSKDevTask\DSKDevTask.csproj", "{4CBC5C85-5E9B-4890-AA94-32186BD799F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSKTest", "DSKTest\DSKTest.csproj", "{A6BB0F8E-754A-4958-8904-27567940E7BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CBC5C85-5E9B-4890-AA94-32186BD799F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CBC5C85-5E9B-4890-AA94-32186BD799F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CBC5C85-5E9B-4890-AA94-32186BD799F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CBC5C85-5E9B-4890-AA94-32186BD799F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6BB0F8E-754A-4958-8904-27567940E7BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BB0F8E-754A-4958-8904-27567940E7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BB0F8E-754A-4958-8904-27567940E7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BB0F8E-754A-4958-8904-27567940E7BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
